@@ -1,2 +1,23 @@
-# Azure_Detect-Faces
+##### Detect faces in Vision Studio
 Testing face detection capabilities of the Azure AI Face
+
+As soluções de visão geralmente exigem IA para serem capazes de detectar rostos humanos. Suponha que a empresa de varejo fictícia queira localizar onde os clientes estão em uma loja para melhor ajudá-los. Uma maneira de fazer isso é determinar se há faces nas imagens e, em caso afirmativo, retornar as coordenadas da caixa delimitadora que mostram sua localização.
+
+Para testar os recursos de detecção de rosto do serviço [Azure AI Face](https://portal.vision.cognitive.azure.com/), você usará o Azure Vision Studio. Esta é uma plataforma baseada em interface do usuário que permite explorar os recursos do Azure AI Vision sem precisar escrever nenhum código.
+
+## Criar um recurso de serviços de IA do Azure
+Você pode usar o serviço Azure AI Face com um recurso multisserviço dos serviços de IA do Azure. Se você ainda não tiver feito isso, crie um recurso de serviços de IA do Azure em sua assinatura do Azure.
+
+1. Em outra guia do navegador, abra o portal do Azure em [https://portal.azure.com]([https://portal.azure.com]), entrando com a conta da Microsoft associada à sua assinatura do Azure.
+
+2. Clique no botão **+Criar um recurso** e procure serviços de IA do Azure. Selecione criar um plano de serviços de _IA do Azure_. Você será levado a uma página para **criar** um recurso de serviços de IA do Azure. Configure-o com as seguintes configurações:
+Assinatura: sua assinatura do Azure.
+
+* **Grupo de recursos**: selecione ou crie um grupo de recursos com um nome exclusivo.
+* **Região**: Leste dos EUA.
+* **Nome**: insira um nome exclusivo.
+* **Nível de preços**: Standard S0.
+Ao marcar esta caixa, reconheço que li e entendi todos os termos abaixo: _Selecionado_.
+
+3.Selecione Revisar + criar e, em seguida, Criar e aguarde a conclusão da implantação.
+
