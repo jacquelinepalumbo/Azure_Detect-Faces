@@ -858,3 +858,6 @@ img width="511" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Dete
   }
 ]
 `
+5. sinta-se à vontade para experimentar as imagens de amostra ou algumas de suas próprias imagens:
+
+<img width="619" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/0f5ae6e1-3040-4b63-a8e8-468bb8aae658">
