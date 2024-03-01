@@ -71,11 +71,138 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
 # Resultados:
 
    1. <img width="503" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/32efd34a-f31e-4cc1-9122-eb68166de21f">
-
+`  [
+  {
+    "recognitionModel": "recognition_01",
+    "faceRectangle": {
+      "width": 93,
+      "height": 144,
+      "left": 324,
+      "top": 95
+    },
+    "faceLandmarks": {
+      "pupilLeft": {
+        "x": 365.5,
+        "y": 156.7
+      },
+      "pupilRight": {
+        "x": 404.7,
+        "y": 158.1
+      },
+      "noseTip": {
+        "x": 396.8,
+        "y": 183.8
+      },
+      "mouthLeft": {
+        "x": 357.5,
+        "y": 200.1
+      },
+      "mouthRight": {
+        "x": 398.7,
+        "y": 202.3
+      },
+      "eyebrowLeftOuter": {
+        "x": 346.2,
+        "y": 146.7
+      },
+      "eyebrowLeftInner": {
+        "x": 381.6,
+        "y": 145.9
+      },
+      "eyeLeftOuter": {
+        "x": 358.1,
+        "y": 156.6
+      },
+      "eyeLeftTop": {
+        "x": 366,
+        "y": 154.6
+      },
+      "eyeLeftBottom": {
+        "x": 365.8,
+        "y": 158.6
+      },
+      "eyeLeftInner": {
+        "x": 372,
+        "y": 157.1
+      },
+      "eyebrowRightInner": {
+        "x": 400.1,
+        "y": 147
+      },
+      "eyebrowRightOuter": {
+        "x": 417,
+        "y": 145.8
+      },
+      "eyeRightInner": {
+        "x": 398.6,
+        "y": 158.5
+      },
+      "eyeRightTop": {
+        "x": 405,
+        "y": 155.7
+      },
+      "eyeRightBottom": {
+        "x": 404.9,
+        "y": 159.9
+      },
+      "eyeRightOuter": {
+        "x": 410.3,
+        "y": 158.4
+      },
+      "noseRootLeft": {
+        "x": 383,
+        "y": 158.7
+      },
+      "noseRootRight": {
+        "x": 395.2,
+        "y": 159.2
+      },
+      "noseLeftAlarTop": {
+        "x": 379.9,
+        "y": 174.9
+      },
+      "noseRightAlarTop": {
+        "x": 400.2,
+        "y": 174.8
+      },
+      "noseLeftAlarOutTip": {
+        "x": 373.8,
+        "y": 182.8
+      },
+      "noseRightAlarOutTip": {
+        "x": 402.9,
+        "y": 183.2
+      },
+      "upperLipTop": {
+        "x": 388.7,
+        "y": 197.5
+      },
+      "upperLipBottom": {
+        "x": 387.4,
+        "y": 201.8
+      },
+      "underLipTop": {
+        "x": 385.2,
+        "y": 213.5
+      },
+      "underLipBottom": {
+        "x": 384.1,
+        "y": 220.1
+      }
+    },
+    "faceAttributes": {
+      "mask": {
+        "type": "noMask",
+        "noseAndMouthCovered": false
+      }
+    }
+  }
+]
+`  
    
    2. <img width="508" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/3780d903-f1cf-4deb-b37e-0b08a515430f">
 
-'   [
+`   [
   {
     "recognitionModel": "recognition_01",
     "faceRectangle": {
@@ -202,5 +329,513 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
     }
   }
 ]
-'
+`
+3. <img width="511" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/129ea882-d14b-4571-99f8-86cb5029bfcb">
 
+`[
+  {
+    "recognitionModel": "recognition_01",
+    "faceRectangle": {
+      "width": 78,
+      "height": 109,
+      "left": 409,
+      "top": 169
+    },
+    "faceLandmarks": {
+      "pupilLeft": {
+        "x": 449.2,
+        "y": 210
+      },
+      "pupilRight": {
+        "x": 469,
+        "y": 204.5
+      },
+      "noseTip": {
+        "x": 481,
+        "y": 223.8
+      },
+      "mouthLeft": {
+        "x": 460.6,
+        "y": 251.7
+      },
+      "mouthRight": {
+        "x": 479.3,
+        "y": 244.8
+      },
+      "eyebrowLeftOuter": {
+        "x": 432.4,
+        "y": 204.5
+      },
+      "eyebrowLeftInner": {
+        "x": 455.4,
+        "y": 195.7
+      },
+      "eyeLeftOuter": {
+        "x": 444.7,
+        "y": 211.1
+      },
+      "eyeLeftTop": {
+        "x": 449.1,
+        "y": 207.1
+      },
+      "eyeLeftBottom": {
+        "x": 450.2,
+        "y": 212.2
+      },
+      "eyeLeftInner": {
+        "x": 453,
+        "y": 209.6
+      },
+      "eyebrowRightInner": {
+        "x": 464.7,
+        "y": 194.3
+      },
+      "eyebrowRightOuter": {
+        "x": 469,
+        "y": 191.5
+      },
+      "eyeRightInner": {
+        "x": 466.1,
+        "y": 206.3
+      },
+      "eyeRightTop": {
+        "x": 468.6,
+        "y": 201.5
+      },
+      "eyeRightBottom": {
+        "x": 470.2,
+        "y": 206.3
+      },
+      "eyeRightOuter": {
+        "x": 471,
+        "y": 203.9
+      },
+      "noseRootLeft": {
+        "x": 458.8,
+        "y": 208.9
+      },
+      "noseRootRight": {
+        "x": 465.6,
+        "y": 206.7
+      },
+      "noseLeftAlarTop": {
+        "x": 463.1,
+        "y": 224.4
+      },
+      "noseRightAlarTop": {
+        "x": 475,
+        "y": 218.6
+      },
+      "noseLeftAlarOutTip": {
+        "x": 462.9,
+        "y": 232.8
+      },
+      "noseRightAlarOutTip": {
+        "x": 478.6,
+        "y": 225.9
+      },
+      "upperLipTop": {
+        "x": 478,
+        "y": 240.5
+      },
+      "upperLipBottom": {
+        "x": 478,
+        "y": 244.5
+      },
+      "underLipTop": {
+        "x": 479,
+        "y": 249.3
+      },
+      "underLipBottom": {
+        "x": 480.5,
+        "y": 254.4
+      }
+    },
+    "faceAttributes": {
+      "mask": {
+        "type": "noMask",
+        "noseAndMouthCovered": false
+      }
+    }
+  }
+]
+`
+4. <img width="754" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/35fe233f-890c-4746-9b69-4b002515edb9">
+`[
+  {
+    "recognitionModel": "recognition_01",
+    "faceRectangle": {
+      "width": 68,
+      "height": 113,
+      "left": 274,
+      "top": 111
+    },
+    "faceLandmarks": {
+      "pupilLeft": {
+        "x": 316.1,
+        "y": 160.2
+      },
+      "pupilRight": {
+        "x": 333.1,
+        "y": 157.2
+      },
+      "noseTip": {
+        "x": 342.3,
+        "y": 176.6
+      },
+      "mouthLeft": {
+        "x": 314,
+        "y": 194.8
+      },
+      "mouthRight": {
+        "x": 332.5,
+        "y": 190.3
+      },
+      "eyebrowLeftOuter": {
+        "x": 304.6,
+        "y": 155.9
+      },
+      "eyebrowLeftInner": {
+        "x": 325.2,
+        "y": 151.4
+      },
+      "eyeLeftOuter": {
+        "x": 312.5,
+        "y": 160.9
+      },
+      "eyeLeftTop": {
+        "x": 316.4,
+        "y": 158.9
+      },
+      "eyeLeftBottom": {
+        "x": 316.6,
+        "y": 161.2
+      },
+      "eyeLeftInner": {
+        "x": 318.7,
+        "y": 159.8
+      },
+      "eyebrowRightInner": {
+        "x": 332.4,
+        "y": 150.9
+      },
+      "eyebrowRightOuter": {
+        "x": 335.2,
+        "y": 148.3
+      },
+      "eyeRightInner": {
+        "x": 330.6,
+        "y": 157.9
+      },
+      "eyeRightTop": {
+        "x": 333.6,
+        "y": 155.8
+      },
+      "eyeRightBottom": {
+        "x": 333.6,
+        "y": 158
+      },
+      "eyeRightOuter": {
+        "x": 334.4,
+        "y": 157
+      },
+      "noseRootLeft": {
+        "x": 325.1,
+        "y": 159.9
+      },
+      "noseRootRight": {
+        "x": 331.6,
+        "y": 159
+      },
+      "noseLeftAlarTop": {
+        "x": 325.1,
+        "y": 172.8
+      },
+      "noseRightAlarTop": {
+        "x": 336.4,
+        "y": 169.5
+      },
+      "noseLeftAlarOutTip": {
+        "x": 322.7,
+        "y": 179.4
+      },
+      "noseRightAlarOutTip": {
+        "x": 337.3,
+        "y": 175.3
+      },
+      "upperLipTop": {
+        "x": 333.4,
+        "y": 189.7
+      },
+      "upperLipBottom": {
+        "x": 332.4,
+        "y": 192.6
+      },
+      "underLipTop": {
+        "x": 331.9,
+        "y": 197.7
+      },
+      "underLipBottom": {
+        "x": 332,
+        "y": 202
+      }
+    },
+    "faceAttributes": {
+      "mask": {
+        "type": "noMask",
+        "noseAndMouthCovered": false
+      }
+    }
+  },
+  {
+    "recognitionModel": "recognition_01",
+    "faceRectangle": {
+      "width": 69,
+      "height": 106,
+      "left": 624,
+      "top": 80
+    },
+    "faceLandmarks": {
+      "pupilLeft": {
+        "x": 630.1,
+        "y": 125.4
+      },
+      "pupilRight": {
+        "x": 645.1,
+        "y": 124.4
+      },
+      "noseTip": {
+        "x": 622.8,
+        "y": 146.4
+      },
+      "mouthLeft": {
+        "x": 635.7,
+        "y": 160.3
+      },
+      "mouthRight": {
+        "x": 651.9,
+        "y": 160.3
+      },
+      "eyebrowLeftOuter": {
+        "x": 624.9,
+        "y": 116.8
+      },
+      "eyebrowLeftInner": {
+        "x": 628.1,
+        "y": 117.8
+      },
+      "eyeLeftOuter": {
+        "x": 629.1,
+        "y": 125.5
+      },
+      "eyeLeftTop": {
+        "x": 629.4,
+        "y": 123.7
+      },
+      "eyeLeftBottom": {
+        "x": 630.2,
+        "y": 126.8
+      },
+      "eyeLeftInner": {
+        "x": 631.8,
+        "y": 125.5
+      },
+      "eyebrowRightInner": {
+        "x": 634.9,
+        "y": 117.1
+      },
+      "eyebrowRightOuter": {
+        "x": 655,
+        "y": 115.9
+      },
+      "eyeRightInner": {
+        "x": 642.8,
+        "y": 125
+      },
+      "eyeRightTop": {
+        "x": 643.9,
+        "y": 122.2
+      },
+      "eyeRightBottom": {
+        "x": 645,
+        "y": 126
+      },
+      "eyeRightOuter": {
+        "x": 648.6,
+        "y": 124.4
+      },
+      "noseRootLeft": {
+        "x": 631.9,
+        "y": 126.4
+      },
+      "noseRootRight": {
+        "x": 636.1,
+        "y": 126.5
+      },
+      "noseLeftAlarTop": {
+        "x": 628.2,
+        "y": 139.5
+      },
+      "noseRightAlarTop": {
+        "x": 638.2,
+        "y": 139.8
+      },
+      "noseLeftAlarOutTip": {
+        "x": 628.5,
+        "y": 145.9
+      },
+      "noseRightAlarOutTip": {
+        "x": 641.5,
+        "y": 146.8
+      },
+      "upperLipTop": {
+        "x": 634.4,
+        "y": 158.6
+      },
+      "upperLipBottom": {
+        "x": 635.3,
+        "y": 161
+      },
+      "underLipTop": {
+        "x": 636.3,
+        "y": 164.1
+      },
+      "underLipBottom": {
+        "x": 637.1,
+        "y": 168.2
+      }
+    },
+    "faceAttributes": {
+      "mask": {
+        "type": "noMask",
+        "noseAndMouthCovered": false
+      }
+    }
+  },
+  {
+    "recognitionModel": "recognition_01",
+    "faceRectangle": {
+      "width": 52,
+      "height": 86,
+      "left": 874,
+      "top": 273
+    },
+    "faceLandmarks": {
+      "pupilLeft": {
+        "x": 885.8,
+        "y": 301
+      },
+      "pupilRight": {
+        "x": 896.1,
+        "y": 304.2
+      },
+      "noseTip": {
+        "x": 875.4,
+        "y": 316.9
+      },
+      "mouthLeft": {
+        "x": 884.5,
+        "y": 335.1
+      },
+      "mouthRight": {
+        "x": 894.3,
+        "y": 337.9
+      },
+      "eyebrowLeftOuter": {
+        "x": 883.7,
+        "y": 291.9
+      },
+      "eyebrowLeftInner": {
+        "x": 885.2,
+        "y": 293.5
+      },
+      "eyeLeftOuter": {
+        "x": 885.4,
+        "y": 300.7
+      },
+      "eyeLeftTop": {
+        "x": 885.3,
+        "y": 299.5
+      },
+      "eyeLeftBottom": {
+        "x": 885.6,
+        "y": 302.2
+      },
+      "eyeLeftInner": {
+        "x": 887,
+        "y": 301.5
+      },
+      "eyebrowRightInner": {
+        "x": 889.8,
+        "y": 294.7
+      },
+      "eyebrowRightOuter": {
+        "x": 904.4,
+        "y": 298.9
+      },
+      "eyeRightInner": {
+        "x": 894.5,
+        "y": 303.8
+      },
+      "eyeRightTop": {
+        "x": 895.2,
+        "y": 302.2
+      },
+      "eyeRightBottom": {
+        "x": 895.7,
+        "y": 305.6
+      },
+      "eyeRightOuter": {
+        "x": 899,
+        "y": 305.1
+      },
+      "noseRootLeft": {
+        "x": 886.5,
+        "y": 302.3
+      },
+      "noseRootRight": {
+        "x": 889.2,
+        "y": 303.2
+      },
+      "noseLeftAlarTop": {
+        "x": 881.6,
+        "y": 312.6
+      },
+      "noseRightAlarTop": {
+        "x": 888.3,
+        "y": 314.8
+      },
+      "noseLeftAlarOutTip": {
+        "x": 881.3,
+        "y": 318.2
+      },
+      "noseRightAlarOutTip": {
+        "x": 889.9,
+        "y": 321.6
+      },
+      "upperLipTop": {
+        "x": 882.1,
+        "y": 330.2
+      },
+      "upperLipBottom": {
+        "x": 882.9,
+        "y": 333
+      },
+      "underLipTop": {
+        "x": 884.7,
+        "y": 341.2
+      },
+      "underLipBottom": {
+        "x": 885.1,
+        "y": 345.1
+      }
+    },
+    "faceAttributes": {
+      "mask": {
+        "type": "noMask",
+        "noseAndMouthCovered": false
+      }
+    }
+  }
+]
+`
