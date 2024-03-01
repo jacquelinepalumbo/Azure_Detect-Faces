@@ -70,8 +70,11 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
 
 # Resultados:
 
-   1. <img width="503" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/32efd34a-f31e-4cc1-9122-eb68166de21f">
-`  [
+   1.
+<img width="503" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/32efd34a-f31e-4cc1-9122-eb68166de21f">
+
+
+` [
   {
     "recognitionModel": "recognition_01",
     "faceRectangle": {
@@ -199,8 +202,12 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
   }
 ]
 `  
+
    
-   2. <img width="508" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/3780d903-f1cf-4deb-b37e-0b08a515430f">
+   2.
+
+<img width="508" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/3780d903-f1cf-4deb-b37e-0b08a515430f">
+
 
 `   [
   {
@@ -330,7 +337,13 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
   }
 ]
 `
-3. <img width="511" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/129ea882-d14b-4571-99f8-86cb5029bfcb">
+
+
+3. <
+
+img width="511" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/129ea882-d14b-4571-99f8-86cb5029bfcb">
+
+
 
 `[
   {
@@ -460,7 +473,13 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
   }
 ]
 `
-4. <img width="754" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/35fe233f-890c-4746-9b69-4b002515edb9">
+
+4.
+
+
+ <img width="754" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/35fe233f-890c-4746-9b69-4b002515edb9">
+
+
 `[
   {
     "recognitionModel": "recognition_01",
