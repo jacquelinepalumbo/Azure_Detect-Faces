@@ -32,6 +32,42 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
 
 2. Entre com sua conta e verifique se você está usando o mesmo diretório em que criou seu recurso de serviços de IA do Azure.
 
-Na home page do Vision Studio, selecione **Exibir todos os recursos** no cabeçalho **Introdução ao Vision**.
+3. Na home page do Vision Studio, selecione **Exibir todos os recursos** no cabeçalho **Introdução ao Vision**.
 
 <img width="626" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/5bb0961c-9003-4e29-872e-b7aae15e4fb5">
+
+4. Na página **Selecione um recurso para trabalhar**, passe o cursor do mouse sobre o recurso criado acima na lista e marque a caixa à esquerda do nome do recurso e selecione **Selecionar como recurso padrão**.
+
+<img width="933" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/e6e8a1e0-ff03-4986-b6e1-a79d09d57481">
+
+5. Feche a página de configurações selecionando o "x" no canto superior direito da tela.
+
+# Detectar rostos no Vision Studio
+1. Em um navegador da Web, navegue até **o Vision Studio** em [https://portal.vision.cognitive.azure.com](https://portal.vision.cognitive.azure.com).
+
+2. Na página inicial **Introdução ao Vision**, selecione a guia **Rosto** e selecione o bloco **Detectar faces** em uma imagem.
+
+3. No subtítulo **Experimentar**, reconheça a política de uso de recursos lendo e marcando a caixa.
+
+4. Selecione cada uma das imagens de amostra e observe os dados de detecção de rosto retornados.
+
+5. Agora vamos tentar com algumas de nossas próprias imagens. Selecione https://aka.ms/mslearn-detect-faces para **baixar detect-faces.zip**. Em seguida, abra a pasta no computador.
+
+6. Localize o arquivo chamado **store-camera-1.jpg**; que contém a seguinte imagem:
+<img width="451" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/6cbe52f7-f8cb-4b4c-afa9-c40f61740116">
+
+7. Carregue  **store-camera-1.jpg** e revise os detalhes de detecção de rosto que são retornados.
+
+8. Localize o arquivo **chamado store-camera-2.jpg**; que contém a seguinte imagem:
+<img width="452" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/e8cef85c-ddab-4366-b53a-d130541975ac">
+
+9. Carregue **store-camera-2.jpg** e revise os detalhes de detecção de rosto retornados.
+
+10. Localize o arquivo chamado **store-camera-3.jpg**; que contém a seguinte imagem:
+<img width="445" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Detect-Faces/assets/119548193/68815143-be26-4437-83a7-2d363d253b71">
+
+11. Carregue **store-camera-3.jpg** e revise os detalhes de detecção de rosto que são retornados. Observe como o Azure AI Face não detectou o rosto que está obscurecido.
+
+# Resultados:
+
+   
